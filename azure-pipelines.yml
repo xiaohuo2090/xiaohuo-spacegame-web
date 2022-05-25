@@ -6,10 +6,12 @@
 trigger:
 - main
 - build-agent
+- dependabot/*
 
 pr:
 - main
 - build-agent
+- dependabot/*
 
 pool:
   vmImage: 'windows-latest'
